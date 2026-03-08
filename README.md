@@ -12,86 +12,24 @@
 </p>
 
 <p align="center">
-  Xiangyu Su<sup>1,2</sup> •
-  <a href="https://juzhan.github.io/">Juzhan Xu</a><sup>1,2</sup> •
-  <a href="https://carleton.ca/scs/people/oliver-van-kaick/">Oliver van Kaick</a><sup>3</sup> •
-  <a href="https://kevinkaixu.net/">Kai Xu</a><sup>4</sup> •
-  <a href="https://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu</a><sup>1</sup>
-</p>
-
-<p align="center">
-  <sup>1</sup>Shenzhen University &nbsp;•&nbsp;
-  <sup>2</sup>SpeedBot Robotics Co., Ltd. &nbsp;•&nbsp;
-  <sup>3</sup>Carleton University &nbsp;•&nbsp;
-  <sup>4</sup>Institute of AI for Industries, Chinese Academy of Sciences
+  Xiangyu Su •
+  <a href="https://juzhan.github.io/">Juzhan Xu</a> •
+  <a href="https://carleton.ca/scs/people/oliver-van-kaick/">Oliver van Kaick</a> •
+  <a href="https://kevinkaixu.net/">Kai Xu</a> •
+  <a href="https://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu</a>
 </p>
 
 <div align="center">
   <img src="assets/teaser_en.gif" alt="IMR-LLM Demo" width="90%">
 </div>
 
-<p align="center">
-  <em>IMR-LLM enables LLM-driven multi-robot coordination in industrial manufacturing. Given a complex manufacturing task, our system constructs a disjunctive graph encoding task dependencies, applies deterministic scheduling to produce a high-level task plan, and generates executable low-level robot programs via a process-tree-guided LLM pipeline.</em>
-</p>
 
 ---
 
 ## 📢 News
 
-> **[2026-03]** 🎉 IMR-LLM has been accepted to **ICRA 2026**! Code coming soon!
+> **[2026-01]** 🎉 IMR-LLM has been accepted to **ICRA 2026**! Code coming soon!
 
----
-
-## ✨ Highlights
-
-<div align="center">
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-### 🔗 Disjunctive Graph Planning
-
-```
-LLM-assisted Graph Construction
-      → Deterministic Scheduling
-```
-
-Leverages LLMs to construct disjunctive graphs and applies heuristic solvers to obtain feasible, efficient high-level task plans.
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 🌳 Process-Tree Guided Generation
-
-```
-High-Level Plan
-      → Executable Python Code
-```
-
-Uses a structured operation process tree to guide LLMs in generating executable, verifiable low-level robot programs.
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 🏭 IMR-Bench
-
-```
-23 Scenes • 50 Tasks
-      → 3 Difficulty Levels
-```
-
-A challenging benchmark built from real industrial environments with 1–7 robots and tasks spanning single-robot to complex multi-robot scenarios.
-
-</td>
-</tr>
-</table>
-</div>
-
----
-
-## 📖 Abstract
-
-In modern industrial production, multiple robots often collaborate to complete complex manufacturing tasks. Large language models (LLMs), with their strong reasoning capabilities, have shown potential in coordinating robots for simple household and manipulation tasks. However, in industrial scenarios, stricter sequential constraints and more complex dependencies within tasks present new challenges for LLMs. To address this, we propose **IMR-LLM**, a novel LLM-driven Industrial Multi-Robot task planning and program generation framework. Specifically, we utilize LLMs to assist in constructing **disjunctive graphs** and employ deterministic solving methods to obtain a feasible and efficient high-level task plan. Based on this, we use a **process tree** to guide LLMs to generate executable low-level programs. Additionally, we create **IMR-Bench**, a challenging benchmark that encompasses multi-robot industrial tasks across three levels of complexity. Experimental results indicate that our method significantly surpasses existing methods across all evaluation metrics.
 
 ---
 
