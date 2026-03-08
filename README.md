@@ -133,8 +133,8 @@ IMR-LLM achieves state-of-the-art performance across all metrics on IMR-Bench.
 
 ```bash
 # Clone the repository
-git clone https://github.com/xiangyusu611/IMR-LLM.git
-cd IMR-LLM
+git clone https://github.com/XiangyuSu611/IMR-LLM-Code.git
+cd IMR-LLM-Code
 
 # Install dependencies
 pip install -r requirements.txt
