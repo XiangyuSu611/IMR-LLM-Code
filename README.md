@@ -28,9 +28,9 @@
 
 ## 📢 News
 
-> **[2026-11-13] Code release update:** The code release has been delayed due to other commitments. We apologize for the delay and appreciate your patience. We still plan to release the code in this repository and will post further updates here. Thank you for your interest in IMR-LLM!
+> **[2026-11-13] Code and data release update:** The release of code and data has been delayed due to other commitments. We apologize for the delay and appreciate your patience. We still plan to release the code and data in this repository and will post further updates here. Thank you for your interest in IMR-LLM!
 
-> **[2026-01]** 🎉 IMR-LLM has been accepted to **ICRA 2026**! Code coming soon!
+> **[2026-01]** 🎉 IMR-LLM has been accepted to **ICRA 2026**!
 
 
 
